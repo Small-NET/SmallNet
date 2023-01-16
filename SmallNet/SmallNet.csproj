@@ -4,6 +4,24 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Title>SmallNet</Title>
+    <Description>A .NET client library for accessing the small internet (including Geminispace).</Description>
+    <PackageProjectUrl>https://github.com/Small-NET/SmallNet</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Small-NET/SmallNet.git</RepositoryUrl>
+    <PackageTags>smolnet;gemini;smallinternet;smallweb</PackageTags>
+    <Company>Mark-James McDougall</Company>
+    <Authors>Mark-James McDougall</Authors>
+    <VersionPrefix>$(VersionPrefix)</VersionPrefix>
+	<VersionSuffix>alpha</VersionSuffix>
+	<PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
