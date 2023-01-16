@@ -6,7 +6,7 @@ SmallNet is a .NET client library for accessing the small internet and is under 
 
 ## Supported Protocols
 
-* [Gemini](https://en.wikipedia.org/wiki/Gemini_(protocol)
+* [Gemini](https://en.wikipedia.org/wiki/Gemini_(protocol))
 
 ## Usage 
 
