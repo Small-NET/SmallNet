@@ -1,7 +1,6 @@
 ﻿namespace SmallNet
 {
-    // Modeled after the Smolnet C# library by LukeEmmet
-    // https://github.com/LukeEmmet/SmolNetSharp
+    // Originally based on https://github.com/InvisibleUp/twinpeaks/tree/master/TwinPeaks/Protocols
     public interface IResponse
     {
         List<byte> bytes { get; }
